@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-**[Try the deployed app →](https://hard-drive-failure-predictor-pdastyxwwkr3pjd9ugch2g.streamlit.app/)**
+**[Try the deployed app ](https://hard-drive-failure-predictor-pdastyxwwkr3pjd9ugch2g.streamlit.app/)**
 
 Upload a CSV of SMART telemetry (multiple days per drive) and get failure-risk
 predictions instantly, with a downloadable results table. A sample file is included
