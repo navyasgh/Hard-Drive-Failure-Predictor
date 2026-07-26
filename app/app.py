@@ -2,16 +2,20 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 
 st.set_page_config(page_title="Hard Drive Failure Predictor", layout="wide")
+
+# Resolve paths relative to this script's own location, not the working directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ---- Load artifacts ----
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load("final_rf_model.pkl")
-    feature_cols = joblib.load("feature_cols.pkl")
-    le = joblib.load("label_encoder.pkl")
-    threshold = joblib.load("threshold.pkl")
+    model = joblib.load(os.path.join(BASE_DIR, "final_rf_model.pkl"))
+    feature_cols = joblib.load(os.path.join(BASE_DIR, "feature_cols.pkl"))
+    le = joblib.load(os.path.join(BASE_DIR, "label_encoder.pkl"))
+    threshold = joblib.load(os.path.join(BASE_DIR, "threshold.pkl"))
     return model, feature_cols, le, threshold
 
 model, feature_cols, le, threshold = load_artifacts()
