@@ -7,8 +7,7 @@
 [Download sample CSV](app/test_smart_data.csv)
 
 Upload a CSV of SMART telemetry (multiple days per drive) and get failure-risk
-predictions instantly, with a downloadable results table. A sample file is included
-in the app if you don't have your own data handy.
+predictions instantly, with a downloadable results table. 
 
 **[Full analysis notebook](notebook/hard-drive-failure-predictor.ipynb)** — data
 cleaning, corruption discovery/fix, model tuning, SHAP explainability.
