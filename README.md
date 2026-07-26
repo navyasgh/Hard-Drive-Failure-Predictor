@@ -1,5 +1,18 @@
 # Hard Drive Failure Predictor
 
+## Quick Start
+
+**[Try the deployed app →](https://hard-drive-failure-predictor-pdastyxwwkr3pjd9ugch2g.streamlit.app/)**
+
+Upload a CSV of SMART telemetry (multiple days per drive) and get failure-risk
+predictions instantly, with a downloadable results table. A sample file is included
+in the app if you don't have your own data handy.
+
+**[Full analysis notebook](notebook/hard-drive-failure-predictor.ipynb)** — data
+cleaning, corruption discovery/fix, model tuning, SHAP explainability.
+
+---
+
 Predictive maintenance system built on real telemetry data from Backblaze's data centers.
 The goal is to predict whether a hard drive will fail within the next 30 days using daily 
 SMART diagnostic attributes.
