@@ -340,11 +340,4 @@ however, that the young-age and old-age failure clusters are driven by meaningfu
 different mechanisms in the model: age itself for early-life failures, physical wear
 indicators for late-life failures.
 
-## Project Phases
-- [x] Phase 1 — EDA & Data Cleaning
-- [x] Phase 2 — Target Label Engineering (30-day failure window)
-- [x] Phase 3 — Feature Engineering
-- [x] Phase 4 — Handling Class Imbalance
-- [x] Phase 5 — Model Training & Comparison
-- [x] Phase 6 — SHAP Explainability
-- [ ] Phase 7 — Streamlit Dashboard
+
