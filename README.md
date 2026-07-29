@@ -29,7 +29,7 @@ that flags at-risk drives before they fail — giving engineers time to act.
 - **Source:** Backblaze Hard Drive Test Data (2016), via Kaggle
 - **Size:** 3.1 million rows, 95 raw columns
 - **Failures:** 215 out of 3.1 million drive-days (0.006%)
-- **Features:** Daily SMART diagnostic attributes per drive
+- **Features:** Daily SMART (Self-Monitoring, Analysis, and Reporting Technology) diagnostic attributes per drive
 
 ## Data Preprocessing
 
